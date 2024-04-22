@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Wendy+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <title>Shop</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fixed">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Shop</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#story">Our story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./misscupcake/index.html"
+                      >Why Miss cupcake
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-cart py-2 mx-5">
+              <div class="cart-count">0</div>
+              <img src="./img/Trolley icon.png" alt="cart" />
+            </div>
+          </div>
+          <div class="modal-info">
+            <div class="modal-text">
+              Registered completed successfully. We'll keep you up to date
+            </div>
+            <div class="modal-close">X</div>
+          </div>
+          <div class="modal-error">
+            <div class="modal-text">
+              You are mistaken. Please enter correct email
+            </div>
+          </div>
+          <div class="modal-wrapper px-5">
+            <div class="modal_cart-total">
+              <div class="modal_cart-header">
+                <div class="modal_cart-title">My Bag</div>
+                <div class="modal_cart-close">X</div>
+              </div>
+              <div class="modal_cart-box py-3">
+                <div class="modal_cart-item">
+                  <table class="table">
+                    <tbody></tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="modal_cart-price_total">
+                <div class="modal-price-title">Total to pay</div>
+                <div class="modal-price"></div>
+              </div>
+              <div class="modal-btn">
+                <a
+                  href="https://www.portmone.com.ua/"
+                  target="_blank"
+                  class="btn"
+                  >Check out</a
+                >
+                <a href="./cart/index.html" class="btn btn-light">view cart</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="main">
+          <section>
+            <div class="container py-5">
+              <div class="card my-5 p-1">
+                <div class="card-body">
+                  <div class="card-title">Miss cupcake</div>
+                  <p class="card-text">
+                    We are proud to offer cupcakes and cakes that are freshly
+                    baked within hours, if not minutes, for your enjoyment.
+                  </p>
+                  <a href="#products" class="btn">SHOP NOW</a>
+                </div>
+              </div>
+              <div
+                class="img-top_container wow animate__animated animate__bounceInRight animate__slower"
+              >
+                <div class="img-top left one">
+                  <img src="./img/left cupcake1.png" alt="left cupcake" />
+                </div>
+                <div class="img-top right">
+                  <img src="./img/right cupcake2.png" alt="right cupcake" />
+                </div>
+                <div class="img-top bottom">
+                  <img src="./img/bottom cupcake 3.png" alt="bottom cupcake" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container two py-5">
+              <div
+                class="img-top_container wow two animate__animated animate__bounceInLeft animate__slower"
+              >
+                <div class="img-top left two">
+                  <img src="./img/Art_top.png" alt="art top" />
+                </div>
+                <div class="img-top bottom two">
+                  <img src="./img/Art_bottom.png" alt="art-bottom" />
+                </div>
+              </div>
+              <div class="card my-5 p-1">
+                <div class="card-body">
+                  <div class="card-title two">The Simple, Sweet Life</div>
+                  <p class="card-text">
+                    Our cupcakes are always made with the finest ingredients,
+                    creating a spark that makes your taste buds dance. You’ll
+                    want to indulge in each and every decadent flavor.
+                  </p>
+                  <a href="#products" class="btn">SHOP NOW</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container products py-5">
+              <div class="card-title box two">
+                Make your day a little sweeter
+              </div>
+              <div id="products" class="product-box">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3"></div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div id="story" class="container bottom py-5">
+              <div class="card bottom p-1">
+                <div class="card-body">
+                  <div class="card-title">once upon a time..</div>
+                  <p class="card-text">
+                    The art of baking runs deep in our family. Growing up on our
+                    family we learned from the best. Our mom was an amazing
+                    baker. She not only taught us how to bake, she passed along
+                    her values of quality, honesty and integrity.
+                  </p>
+                  <a href="#" class="btn">Our story</a>
+                </div>
+              </div>
+              <div
+                class="img-top_container wow three animate__animated animate__bounceInUp animate__slower"
+              >
+                <div class="img-bottom">
+                  <img src="./img/image 11.png" alt="bottom cupcake" />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <div class="container footer my-5">
+          <div class="footer-box">
+            <div class="footer-text">Miss cupcake</div>
+            <form action="" class="footer-form">
+              <div class="footer-form_box">
+                <label for="user-mail">Suger up your Inbox</label>
+                <input
+                  type="email"
+                  placeholder="Email address"
+                  id="user-mail"
+                  class="user"
+                />
+              </div>
+              <button type="button" class="btn footer">Send</button>
+            </form>
+            <div class="footer-nav_box">
+              <ul class="footer-nav">
+                <li>
+                  <a href="../index.html">Shop</a>
+                </li>
+                <li>
+                  <a href="../index.html">Our story</a>
+                </li>
+                <li>
+                  <a href="../misscupcake/index.html">Why Miss cupcake </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-bottom_box">
+              <ul class="footer-bottom">
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Cookies policy</a></li>
+                <li><a href="#">Terms of use</a></li>
+              </ul>
+            </div>
+            <div class="footer_miss"></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./code/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="./code/data.js"></script>
+    <script src="./code/functions.js"></script>
+    <script src="./code/products.js"></script>
+    <script src="./code/index.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
