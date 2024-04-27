@@ -1,394 +1,394 @@
 .wrapper.miss-cupcake {
-  background: url(../img/bg\ 4.png);
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background: url(../img/bg\ 4.png);
+	background-attachment: scroll;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .container-fixed.cart {
-  background-color: #fae0cf;
+	background-color: #fae0cf;
 }
 
 .container.miss-cup_bottom,
 .container.cart {
-  min-height: 30rem;
+	min-height: 30rem;
 }
 
 .card.miss-cup {
-  width: 60%;
-  margin: 0 auto;
-  height: 25rem;
+	width: 60%;
+	margin: 0 auto;
+	height: 25rem;
 }
 
 .card.miss-cup .card-body .card-text {
-  text-align: center;
-  padding: 0 5em;
+	text-align: center;
+	padding: 0 5em;
 }
 
 .card.miss-cup .card-body {
-  align-items: center;
-  text-align: center;
+	align-items: center;
+	text-align: center;
 }
 
 .img-top.left.miss-cup {
-  width: 18rem;
-  top: 28em;
-  left: 54em;
-  z-index: 5;
+	width: 18rem;
+	top: 28em;
+	left: 54em;
+	z-index: 5;
 }
 
 .img-top.right.miss-cup {
-  width: 25rem;
-  top: 21em;
-  left: 0;
-  z-index: 5;
+	width: 25rem;
+	top: 21em;
+	left: 0;
+	z-index: 5;
 }
 
 .img-top.bottom.miss-cup {
-  width: 18em;
-  top: 21em;
-  left: 54em;
-  z-index: 1;
+	width: 18em;
+	top: 21em;
+	left: 54em;
+	z-index: 1;
 }
 
 .img-top.left.miss-cup img,
 .img-top.right.miss-cup img,
 .img-top.bottom.miss-cup img {
-  width: 80%;
+	width: 80%;
 }
 
 .container.center {
-  position: relative;
+	position: relative;
 }
 
 .miss-cup_circle {
-  border-radius: 50%;
-  background-color: #fcefd2;
-  width: 40em;
-  height: 40em;
-  margin: auto;
+	border-radius: 50%;
+	background-color: #fcefd2;
+	width: 40em;
+	height: 40em;
+	margin: auto;
 }
 
 .img-top_container.center {
-  width: 100%;
+	width: 100%;
 }
 
 .img-top.left.center,
 .img-top.center,
 .img-top.bottom.center {
-  width: 40rem;
+	width: 40rem;
 }
 
 .img-top.left.center img,
 .img-top.center img,
 .img-top.bottom.center img {
-  width: 70%;
+	width: 70%;
 }
 
 .img-top.left.center {
-  top: -8em;
-  left: 7em;
-  z-index: 2;
+	top: -8em;
+	left: 7em;
+	z-index: 2;
 }
 
 .img-top.left.center img {
-  animation: cakeUp 3s ease-out 3s forwards;
+	animation: cakeUp 3s ease-out 3s forwards;
 }
 
 @keyframes cakeUp {
-  0% {
-    transform: translateY(-50px);
-  }
-  75% {
-    transform: translateY(150px);
-  }
-  100% {
-    transform: translateY(150px);
-  }
+	0% {
+		transform: translateY(-50px);
+	}
+	75% {
+		transform: translateY(150px);
+	}
+	100% {
+		transform: translateY(150px);
+	}
 }
 
 .img-top.center {
-  top: 9em;
-  left: 7em;
-  z-index: 1;
+	top: 9em;
+	left: 7em;
+	z-index: 1;
 }
 
 .img-top.center img {
-  animation: cakeCenter 3s ease-out 3s forwards;
+	animation: cakeCenter 3s ease-out 3s forwards;
 }
 
 @keyframes cakeCenter {
-  0% {
-    transform: translateY(0);
-  }
-  75% {
-    transform: translateY(60px);
-  }
-  100% {
-    transform: translateY(60px);
-  }
+	0% {
+		transform: translateY(0);
+	}
+	75% {
+		transform: translateY(60px);
+	}
+	100% {
+		transform: translateY(60px);
+	}
 }
 
 .img-top.bottom.center {
-  top: 27em;
-  left: 6em;
-  z-index: 2;
+	top: 27em;
+	left: 6em;
+	z-index: 2;
 }
 
 .img-top.bottom.center img {
-  animation: cakeBottom 3s ease-out 3s forwards;
+	animation: cakeBottom 3s ease-out 3s forwards;
 }
 
 @keyframes cakeBottom {
-  0% {
-    transform: translateY(50px);
-  }
-  75% {
-    transform: translateY(-110px);
-  }
-  100% {
-    transform: translateY(-110px);
-  }
+	0% {
+		transform: translateY(50px);
+	}
+	75% {
+		transform: translateY(-110px);
+	}
+	100% {
+		transform: translateY(-110px);
+	}
 }
 
 .card.center {
-  width: 30%;
-  height: 10em;
-  position: absolute;
-  gap: 1em;
+	width: 30%;
+	height: 10em;
+	position: absolute;
+	gap: 1em;
 }
 
 .card.center img {
-  width: 30%;
+	width: 30%;
 }
 
 .card.center.left {
-  top: 20em;
-  left: 0;
+	top: 20em;
+	left: 0;
 }
 
 .card.center.right {
-  top: 26em;
-  left: 50em;
+	top: 26em;
+	left: 50em;
 }
 
 .card.center.bottom {
-  bottom: 2em;
-  left: 15em;
+	bottom: 2em;
+	left: 15em;
 }
 
 .img-top.miss-cup_top {
-  width: 5rem;
-  left: 42em;
-  bottom: 26rem;
+	width: 5rem;
+	left: 42em;
+	bottom: 26rem;
 }
 
 .img-top.miss-cup_bottom {
-  width: 5rem;
-  bottom: 15em;
-  left: 24em;
+	width: 5rem;
+	bottom: 15em;
+	left: 24em;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .card.miss-cup {
-    width: 80%;
-  }
+	.card.miss-cup {
+		width: 80%;
+	}
 
-  .img-top.left.miss-cup img,
-  .img-top.right.miss-cup img,
-  .img-top.bottom.miss-cup img {
-    width: 70%;
-  }
+	.img-top.left.miss-cup img,
+	.img-top.right.miss-cup img,
+	.img-top.bottom.miss-cup img {
+		width: 70%;
+	}
 
-  .img-top.left.miss-cup {
-    top: 30em;
-    left: 30em;
-    z-index: 5;
-  }
+	.img-top.left.miss-cup {
+		top: 30em;
+		left: 30em;
+		z-index: 5;
+	}
 
-  .img-top.right.miss-cup {
-    top: 22em;
-  }
+	.img-top.right.miss-cup {
+		top: 22em;
+	}
 
-  .img-top.bottom.miss-cup {
-    top: 23em;
-    left: 29em;
-    z-index: 1;
-  }
+	.img-top.bottom.miss-cup {
+		top: 23em;
+		left: 29em;
+		z-index: 1;
+	}
 
-  .miss-cup_circle {
-    border-radius: 50%;
-    background-color: #fcefd2;
-    width: 35em;
-    height: 35em;
-  }
+	.miss-cup_circle {
+		border-radius: 50%;
+		background-color: #fcefd2;
+		width: 35em;
+		height: 35em;
+	}
 
-  .img-top.center,
-  .img-top.left.center {
-    left: 5em;
-  }
+	.img-top.center,
+	.img-top.left.center {
+		left: 5em;
+	}
 
-  .img-top.center img,
-  .img-top.left.center img {
-    width: 70%;
-  }
+	.img-top.center img,
+	.img-top.left.center img {
+		width: 70%;
+	}
 
-  .img-top.bottom.center img {
-    width: 60%;
-  }
+	.img-top.bottom.center img {
+		width: 60%;
+	}
 
-  .card.center.right {
-    top: 26em;
-    left: 35em;
-  }
+	.card.center.right {
+		top: 26em;
+		left: 35em;
+	}
 
-  .card.center.bottom {
-    bottom: 3em;
-    left: 8em;
-  }
-  .card.center {
-    width: 10rem;
-  }
+	.card.center.bottom {
+		bottom: 3em;
+		left: 8em;
+	}
+	.card.center {
+		width: 10rem;
+	}
 
-  .card.center img {
-    width: 40%;
-  }
+	.card.center img {
+		width: 40%;
+	}
 
-  .card.center p {
-    font-size: 0.8em;
-  }
+	.card.center p {
+		font-size: 0.8em;
+	}
 
-  .img-top.miss-cup_bottom {
-    bottom: 17em;
-    left: 14em;
-  }
+	.img-top.miss-cup_bottom {
+		bottom: 17em;
+		left: 14em;
+	}
 
-  .img-top.miss-cup_top {
-    left: 28em;
-    bottom: 26rem;
-  }
+	.img-top.miss-cup_top {
+		left: 28em;
+		bottom: 26rem;
+	}
 }
 
 @media screen and (max-width: 768px) {
-  .container.miss-cup {
-    margin: 3rem 0;
-  }
+	.container.miss-cup {
+		margin: 3rem 0;
+	}
 
-  .container.miss-cup_bottom {
-    margin: 3rem 0;
-  }
+	.container.miss-cup_bottom {
+		margin: 3rem 0;
+	}
 
-  .card.miss-cup {
-    width: 100%;
-  }
+	.card.miss-cup {
+		width: 100%;
+	}
 
-  .card-title {
-    font-size: 3em;
-  }
+	.card-title {
+		font-size: 3em;
+	}
 
-  .img-top.bottom.miss-cup {
-    width: 10em;
-    top: 36em;
-    left: 13em;
-    z-index: 1;
-  }
+	.img-top.bottom.miss-cup {
+		width: 10em;
+		top: 36em;
+		left: 13em;
+		z-index: 1;
+	}
 
-  .card.miss-cup .card-body .card-text {
-    text-align: left;
-    padding: 0;
-  }
+	.card.miss-cup .card-body .card-text {
+		text-align: left;
+		padding: 0;
+	}
 
-  .img-top.right.miss-cup {
-    width: 12rem;
-    top: 37em;
-    left: 2em;
-    z-index: 5;
-  }
+	.img-top.right.miss-cup {
+		width: 12rem;
+		top: 37em;
+		left: 2em;
+		z-index: 5;
+	}
 
-  .img-top.left.miss-cup {
-    width: 10rem;
-    top: 41em;
-    left: 14em;
-    z-index: 5;
-  }
+	.img-top.left.miss-cup {
+		width: 10rem;
+		top: 41em;
+		left: 14em;
+		z-index: 5;
+	}
 
-  .miss-cup_circle {
-    border-radius: 50%;
-    width: 20em;
-    height: 22em;
-  }
+	.miss-cup_circle {
+		border-radius: 50%;
+		width: 20em;
+		height: 22em;
+	}
 
-  .img-top.left.center,
-  .img-top.center,
-  .img-top.bottom.center {
-    width: 20rem;
-  }
+	.img-top.left.center,
+	.img-top.center,
+	.img-top.bottom.center {
+		width: 20rem;
+	}
 
-  .img-top.left.center {
-    top: -8em;
-    left: 3em;
-    z-index: 2;
-  }
+	.img-top.left.center {
+		top: -8em;
+		left: 3em;
+		z-index: 2;
+	}
 
-  .img-top.center {
-    top: 3em;
-    left: 3em;
-    z-index: 1;
-  }
+	.img-top.center {
+		top: 3em;
+		left: 3em;
+		z-index: 1;
+	}
 
-  .img-top.bottom.center {
-    top: 18em;
-    left: 3em;
-    z-index: 2;
-  }
+	.img-top.bottom.center {
+		top: 18em;
+		left: 3em;
+		z-index: 2;
+	}
 
-  .card.center {
-    width: 100%;
-    height: 12em;
-    position: static;
-    gap: 2em;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
+	.card.center {
+		width: 100%;
+		height: 12em;
+		position: static;
+		gap: 2em;
+		display: flex;
+		align-items: center;
+		text-align: center;
+	}
 
-  .container.center {
-    height: 100vh;
-    position: relative;
-    gap: 2rem;
-    margin: 2rem 0;
-  }
+	.container.center {
+		min-height: 100vh;
+		position: relative;
+		gap: 2rem;
+		margin: 2rem 0;
+	}
 
-  .img.miss-cup_wrap {
-    width: 100%;
-    height: 20rem;
-  }
+	.img.miss-cup_wrap {
+		width: 100%;
+		height: 20rem;
+	}
 
-  .card.miss-cup .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: left;
-  }
+	.card.miss-cup .card-body {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+		text-align: left;
+	}
 
-  .card.miss-cup .card-body .card-title {
-    font-size: 3.5em;
-  }
+	.card.miss-cup .card-body .card-title {
+		font-size: 3.5em;
+	}
 
-  .img-top.miss-cup_top {
-    left: 17em;
-    bottom: 19rem;
-    transform: rotate(20deg);
-  }
+	.img-top.miss-cup_top {
+		left: 17em;
+		bottom: 19rem;
+		transform: rotate(20deg);
+	}
 
-  .img-top.miss-cup_bottom {
-    bottom: 13em;
-    left: 9em;
-  }
+	.img-top.miss-cup_bottom {
+		bottom: 13em;
+		left: 9em;
+	}
 
-  .card.miss-cup .card-body .card-title.bottom {
-    font-size: 4em;
-  }
+	.card.miss-cup .card-body .card-title.bottom {
+		font-size: 4em;
+	}
 }
